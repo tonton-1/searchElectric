@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "817784700049",
+    "project_id": "flutterworkelectric",
+    "storage_bucket": "flutterworkelectric.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817784700049:android:6b253b5d7fa6b1e1745330",
+        "android_client_info": {
+          "package_name": "com.example.electricpayment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFsCzyb0izIRV8ZAZz4UF_PuXgLg3gg8M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
