@@ -373,6 +373,14 @@ class MySearchDelegate extends SearchDelegate {
         matchQuery.add(payment);
       }
     }
+    if (matchQuery.isEmpty) {
+      return Center(
+        child: Text(
+          'ไม่พบข้อมูลที่ค้นหา',
+          style: TextStyle(fontSize: 18.0, color: Colors.grey),
+        ),
+      );
+    }
     return Container(
       color: const Color.fromARGB(255, 246, 247, 247),
       child: ListView.builder(
